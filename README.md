@@ -28,8 +28,8 @@ Your users should be able to:
 <img src="./screenshot/desktop-screenshot.png">
 
 ## links
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Anubhav-Ray/Intro-Component-With-Signup-Form)
+- Live Site URL: (https://anubhav-ray.github.io/Intro-Component-With-Signup-Form/)
 
 ## My Process
 - I first focused on making the mobile view of the given design and then styled the input elements of the form.
