@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-image: url("./images/bg-intro-mobile.png");
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+    color: #fff;
+
+
+}
+.container{
+    text-align: center;
+    width: 85%;
+    height: 1000px;
+}
+
+h1{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+.pricing{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+}
+.pricing p{
+    margin-left: 1.4rem;
+    padding: 0.8rem 4rem 0.8rem 2rem;
+}
+.pricing span{
+color: rgba(255, 255, 255, 0.68);
+}
+
+.form{
+background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.input-control input,#submit-btn{
+    width: 100%;
+    height: 3rem;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(20, 0, 0, 0.29);
+    border-radius: 6px;
+
+
+}
+.input-control input:focus {
+    border: 1px solid  rgba(20, 0, 0, 0.29);
+    outline: none;
+}
+
+.input-control.success input{
+    border-color: #24c024;
+}
+.input-control.error input{
+    border-color: red;
+    background-image: url("./images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 97% 50% ;
+
+
+}
+
+::placeholder{
+
+    color: hsl(249, 10%, 26%) ;
+    font-weight: 600;
+}
+.input-control.error input::placeholder{
+    color: red;
+}
+.input-control.error input:focus{
+    border: 2px solid red;
+}
+#submit-btn{
+    background-color:  hsl(154, 59%, 51%) ;
+    color: white;
+    font-weight: 500;
+    height: 3.8rem;
+    padding: 0rem;
+    border: 1px solid rgba(111, 197, 141, 0.88);
+}
+.terms{
+   color: hsla(240, 7%, 72%, 0.78);
+    font-size: 10px;
+    margin: 0.5rem 0.5rem 0 1.5rem
+}
+.terms-imp{
+    color: hsl(0, 100%, 74%) ;
+}
+
+.error{
+    font-size: 10px;
+    text-align: end;
+    font-style: italic;
+    color:red;
+}
+.input-control.error input{
+    text-align: start;
+    font-style: normal;
+    color: hsl(249, 10%, 26%);
+    font-size: 16px;
+}
+
+/*Media Queries*/
+@media (min-width: 576px) {
+
+    .info {
+        margin-top: 13rem;
+        margin-right: 2rem;
+        text-align: start;
+
+    }
+    .container{
+        height: 750px;
+    }
+    .info h1{
+
+        font-size: 3rem;
+    }
+    .info p{
+     padding-right: 0.5rem;
+    }
+    .signup{
+        margin-top: 4rem;
+    }
+}
