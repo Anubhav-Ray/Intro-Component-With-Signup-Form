@@ -21,7 +21,7 @@ Your users should be able to:
 - Error Message
   <img src="./screenshot/Error-message-2.png" alt="error message" >
 - Success State
-  <img src="./screenshot/Success-state.png" alt="success state" height="75%">
+  <img src="./screenshot/Success-state.png" alt="success state" >
 - Mobile View
  <img src="./screenshot/mobile-screenshot.png">
 - Desktop View
